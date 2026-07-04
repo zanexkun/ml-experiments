@@ -39,9 +39,9 @@ Projects that failed, what I found, and what I learned. The diagnostic process i
 - Ran correlation analysis — max correlation of any feature with AI_Replacement_Risk was 0.04
 - Confirmed with scatter plots
 
-**Conclusion:** Despite having a Kaggle gold badge, the dataset is fake. The target variable has no real relationship with any feature. The gold badge reflects data formatting quality, not signal quality.
+**Conclusion:** The dataset is fake. The target variable has no real relationship with any feature. The gold badge reflects data formatting quality, not signal quality.
 
-**Lesson:** Kaggle ratings don't guarantee real signal. A gold badge means the data is clean and well-formatted, not that it's meaningful. Correlation analysis catches fake data before you waste time training.
+**Lesson:**  Correlation analysis catches fake data before you waste time training.
 
 ---
 
@@ -94,7 +94,6 @@ Projects that failed, what I found, and what I learned. The diagnostic process i
 
 - Check correlation before training — a 0.04 ceiling means no model will work
 - Scatter plots diagnose fake data faster than any model metric
-- Kaggle ratings reflect data formatting, not signal quality
 - Suspiciously high accuracy (100% on 128 rows) is as suspicious as low accuracy
 - Small datasets + complex medical tasks = Transfer Learning, not training from scratch
 - A negative R² means your model is worse than guessing the mean — always check this
