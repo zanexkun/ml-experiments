@@ -24,7 +24,7 @@ Projects that failed, what I found, and what I learned. The diagnostic process i
 
 ---
 
-## 2. AI Jobs Impact Dataset (Kaggle Gold Badge)
+## 2. AI Jobs Impact Dataset (Kaggle)
 
 **Goal:** Predict AI replacement risk from job features
 
